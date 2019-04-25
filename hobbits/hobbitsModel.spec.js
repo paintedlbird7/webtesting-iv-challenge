@@ -2,6 +2,7 @@ const db = require('../data/dbConfig')
 
 const Hobbits = require('./hobbitsModel')
 
+// create 
 describe('hobbits model', () => {
     describe('insert()', () => {
         beforeEach(async () => {
